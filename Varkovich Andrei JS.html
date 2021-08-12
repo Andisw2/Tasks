@@ -1,0 +1,39 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Varkovich Andrei</title>
+    <script type='text/javascript'src='новый1.js'></script>
+    <link href="новый2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Task">
+        <p class="info">Task 1: Составить алгоритм: если введенное число больше 7, то вывести “Привет”.</p>
+        <p>Hello. Please, enter a number:</p>
+        <input id="input-task-one" class="off-arrow" type="number" size="40" onkeydown="if (event.keyCode == 13)checkNum()">
+        <button onclick="checkNum()">Enter</button>
+    </div>     
+    <div class="Task">
+        <p class="info">Task 2: Составить алгоритм: если введенное имя совпадает с Вячеслав, то вывести “Привет, Вячеслав”, если нет, то вывести "Нет такого имени".</p>
+        <p>Hello. Please, enter a name:</p>
+        <input id="input-task-two" type="text" size="20" onkeydown="if (event.keyCode == 13)checkName()">
+        <button onclick="checkName()">Enter</button>
+    </div>
+    <div class="Task">
+        <p class="info">Task 3: Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3.</p>
+        <p>Введите элементы числового массива через пробел:</p>
+        <input id="input-task-three" class="off-arrow" type="text" size="20" onkeydown="if (event.keyCode == 13)getArray()">
+        <button onclick="getArray()">Enter</button>
+    </div>
+    <div class="Task">
+        <p class="info">Task 3: Дана скобочная последовательность: [((())()(())]]</p>
+        <p class="info">- Можно ли считать эту последовательность правильной?</p>
+        <p class="info">- Если ответ на предыдущий вопрос “нет” - то что необходимо в ней изменить, чтоб она стала правильной?</p>
+        <p>Нет, последовательность неверная.Необходимо удалить первую круглую скобку в начале и последнюю квадратную в конце.
+        <p> И необходимо добавить по парной соответсвующей скобке</p>
+        <p>Экземпляры правильной последовательности:</p>
+        <p>[(())()(())]</p>
+        <p>[[((())()(()))]]</p>
+    </div>
+    <div class="about">Задания выполнил Варкович Андрей.</div>
+
+</body></html>
